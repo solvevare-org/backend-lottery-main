@@ -38,7 +38,7 @@ app.post('/request-verification-code', requestVerificationCode);
 
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3111;
 
 connectDB().then(() => {
     app.listen(PORT, () => {
